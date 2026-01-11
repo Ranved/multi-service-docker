@@ -71,7 +71,7 @@ services:
       timeout: 5s
       retries: 5
 
-  # Nginx Reverse Proxy (Optional)
+  # Nginx Reverse Proxy
   nginx:
     image: nginx:alpine
     container_name: nginx_proxy
